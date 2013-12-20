@@ -113,9 +113,9 @@
 #ifdef USE_SDL
 
 #include "main.h"
-#include "SDL.h"
-#include "SDL_ttf.h"
-#include "SDL_image.h"
+#include <SDL/SDL.h>
+#include <SDL/SDL_ttf.h>
+#include <SDL/SDL_image.h>
 
 /* SDL flags used for the main window surface */
 static Uint32 vflags = SDL_ANYFORMAT;

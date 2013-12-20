@@ -201,7 +201,7 @@ borg_chest_fail_tolerance = 7
 # to slow the borg down use the following variable.  The formula is:
 # base_game_delay_factor^2 + borg_delay_factor^2.
 
-borg_delay_factor = 9
+borg_delay_factor = 4
 
 
 # Money Scumming
@@ -1032,7 +1032,7 @@ CND037=_MAXHP 500 >
 FORMULA038=_MAXHP 500 - 100 *
 # charisma is only nice at low levels
 POWER_CLASS999_DEPTH000_CND039_RANGE000TO999_CHR= 2 EACH
-CND039=_CLEVEL 25 <
+#CND039=_CLEVEL 25 <
 
 # 'minor' skills
 POWER_CLASS999_DEPTH000_RANGE000TO999_DIS= 2 EACH
